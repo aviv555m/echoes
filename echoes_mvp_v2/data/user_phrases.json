@@ -1,0 +1,21 @@
+{
+  "categories": {
+    "Needs": [
+      "I need help"
+    ]
+  },
+  "history": [
+    {
+      "ts": "2025-08-19T09:31:10.704573Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T09:31:12.383444Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T09:31:16.025287Z",
+      "phrase": "I need help"
+    }
+  ]
+}

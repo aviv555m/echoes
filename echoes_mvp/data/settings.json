@@ -1,0 +1,8 @@
+{
+  "voice": "default",
+  "language": "en-US",
+  "theme": "light",
+  "ai_enabled": true,
+  "offline_first": true,
+  "pricing_tier": "free"
+}

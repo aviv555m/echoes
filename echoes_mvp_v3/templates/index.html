@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echoes MVP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://cdn.socket.io/4.7.1/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Echoes MVP - AAC Board</h1>
+    <div id="grid">
+        {% for cat in categories %}
+        <div class="category" data-category="{{ cat }}">
+            <h3>{{ cat }}</h3>
+            <div class="phrases">
+                {% for phrase in phrases[cat] %}
+                <div class="phrase" data-phrase="{{ phrase }}">{{ phrase }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div id="message"></div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

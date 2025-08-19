@@ -1,0 +1,8 @@
+{
+  "eye_tracker_enabled": true,
+  "language": "en-US",
+  "theme": "light",
+  "ai_enabled": true,
+  "pricing_tier": "free",
+  "offline_first": true
+}

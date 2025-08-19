@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ app_name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="{{ 'theme-dark' if settings.theme == 'dark' else 'theme-light' }}">
+  <header>
+    <h1>Echoes</h1>
+    <div class="controls">
+      <select id="language">
+        <option value="en-US" {{ 'selected' if settings.language == 'en-US' else '' }}>English (US)</option>
+        <option value="he-IL" {{ 'selected' if settings.language == 'he-IL' else '' }}>Hebrew (IL)</option>
+        <option value="ar-SA" {{ 'selected' if settings.language == 'ar-SA' else '' }}>Arabic</option>
+        <option value="es-ES" {{ 'selected' if settings.language == 'es-ES' else '' }}>Spanish</option>
+      </select>
+      <button id="toggleTheme" aria-label="Toggle theme">🌓</button>
+      <label class="switch">
+        <input type="checkbox" id="toggleTracker" {{ 'checked' if settings.eye_tracker_enabled else '' }}>
+        <span>Eye Tracker</span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="board">
+      {% for cat, phrases in data.categories.items() %}
+      <div class="category">
+        <h2>{{ cat }}</h2>
+        <div class="grid">
+          {% for p in phrases %}
+          <button class="cell" data-phrase="{{ p|e }}">{{ p }}</button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section class="composer">
+      <input id="composerInput" placeholder="Tap words or type..." />
+      <div class="row">
+        <button id="speakBtn">🔊 Speak</button>
+        <button id="clearBtn">🧹 Clear</button>
+        <button id="addBtn">➕ Add to Board</button>
+      </div>
+      <div id="suggestions" class="chips"></div>
+      <div id="warningBox" class="warning" style="display:none"></div>
+    </section>
+
+    <section class="customize">
+      <h3>Custom Phrases</h3>
+      <div class="row">
+        <input id="newPhrase" placeholder="New phrase" />
+        <input id="newCategory" placeholder="Category (optional)" />
+        <button id="savePhraseBtn">Save</button>
+      </div>
+      <div id="customList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Offline-first. AI suggestions & teaching require Ollama (llama3.2) running locally. Eye tracker opens a native window (press Q to close).</small>
+  </footer>
+
+  <script>
+    window.INIT_SETTINGS = {{ settings|tojson }};
+  </script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

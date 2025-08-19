@@ -1,0 +1,6 @@
+
+opencv-python
+mediapipe==0.10.21
+speechrecognition
+pyaudio
+python-socketio

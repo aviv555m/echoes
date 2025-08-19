@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+#grid { display: flex; gap: 20px; }
+.category { border: 1px solid #ccc; padding: 10px; border-radius: 8px; width: 150px; }
+.phrases { display: flex; flex-direction: column; gap: 5px; }
+.phrase { padding: 5px; border: 1px solid #888; border-radius: 5px; cursor: pointer; }
+.phrase.highlight { background-color: yellow; }
+#message { margin-top: 20px; font-weight: bold; color: red; }

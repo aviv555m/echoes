@@ -1,0 +1,412 @@
+{
+  "categories": {
+    "Needs": [
+      "I need help",
+      "I'm thirsty",
+      "I'm hungry",
+      "I need the bathroom",
+      "Please wait"
+    ],
+    "Feelings": [
+      "I'm happy",
+      "I'm sad",
+      "I'm excited",
+      "I'm tired",
+      "I'm frustrated"
+    ],
+    "Daily": [
+      "Good morning",
+      "Thank you",
+      "Yes",
+      "No",
+      "Please",
+      "Can we go?"
+    ],
+    "People": [
+      "Mom",
+      "Dad",
+      "Teacher",
+      "Friend",
+      "Nurse"
+    ],
+    "Custom": []
+  },
+  "history": [
+    {
+      "ts": "2025-08-19T08:50:00.703108Z",
+      "phrase": "d"
+    },
+    {
+      "ts": "2025-08-19T08:50:02.407161Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:50:02.438569Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:50:08.027674Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:08.062782Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:08.092188Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:09.389424Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:10.330306Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:11.092751Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:11.842712Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:12.549844Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:13.778212Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:15.072702Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:16.753607Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:18.093174Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:19.531139Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:21.193919Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:21.328597Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:22.904559Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:24.350074Z",
+      "phrase": "i"
+    },
+    {
+      "ts": "2025-08-19T08:50:27.799399Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:29.509998Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:31.527016Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:33.129357Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:33.940618Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.116719Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.292689Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.444610Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.567761Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.693475Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.844294Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:34.996653Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:35.136465Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:35.282215Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:35.409626Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:35.570236Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:35.734050Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:50:35.862582Z",
+      "phrase": "i I'm excited"
+    },
+    {
+      "ts": "2025-08-19T08:52:46.034726Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:52:48.268048Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:52:50.515691Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:52:52.062371Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:52:53.416607Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:52:55.308192Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:52:57.318285Z",
+      "phrase": "I need help"
+    },
+    {
+      "ts": "2025-08-19T08:53:49.799497Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:49.833704Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:50.502933Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:51.972748Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:53.694652Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:55.359739Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:56.759491Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:53:58.087318Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T08:55:30.399178Z",
+      "phrase": "nigg"
+    },
+    {
+      "ts": "2025-08-19T08:55:43.590528Z",
+      "phrase": "nigger"
+    },
+    {
+      "ts": "2025-08-19T08:55:46.155589Z",
+      "phrase": "nigger"
+    },
+    {
+      "ts": "2025-08-19T08:55:47.322781Z",
+      "phrase": "nigger"
+    },
+    {
+      "ts": "2025-08-19T08:55:49.766494Z",
+      "phrase": "nigger"
+    },
+    {
+      "ts": "2025-08-19T08:57:02.218327Z",
+      "phrase": "nigger"
+    },
+    {
+      "ts": "2025-08-19T08:57:51.135586Z",
+      "phrase": "nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger"
+    },
+    {
+      "ts": "2025-08-19T08:57:51.154415Z",
+      "phrase": "nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger"
+    },
+    {
+      "ts": "2025-08-19T08:57:51.173389Z",
+      "phrase": "nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger"
+    },
+    {
+      "ts": "2025-08-19T08:58:32.479020Z",
+      "phrase": "nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:32.527526Z",
+      "phrase": "nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:32.549967Z",
+      "phrase": "nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger nigger porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.474271Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.511563Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.543378Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.579137Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.608765Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.628294Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.662164Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.689402Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.721219Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:34.763753Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:35.074276Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:35.593182Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:35.822851Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T08:58:36.196551Z",
+      "phrase": "porno porno yes yes"
+    },
+    {
+      "ts": "2025-08-19T09:07:41.842531Z",
+      "phrase": "LO MENAKW"
+    },
+    {
+      "ts": "2025-08-19T09:07:41.905933Z",
+      "phrase": "LO MENAKW"
+    },
+    {
+      "ts": "2025-08-19T09:07:41.968845Z",
+      "phrase": "LO MENAKW"
+    },
+    {
+      "ts": "2025-08-19T09:07:47.276572Z",
+      "phrase": "LO MENAKE"
+    },
+    {
+      "ts": "2025-08-19T09:07:48.861700Z",
+      "phrase": "LO MENAKE"
+    },
+    {
+      "ts": "2025-08-19T09:07:57.488092Z",
+      "phrase": "LO MENAKKE"
+    },
+    {
+      "ts": "2025-08-19T09:07:59.908201Z",
+      "phrase": "LO MENAKKE"
+    },
+    {
+      "ts": "2025-08-19T12:03:32.935166Z",
+      "phrase": "I'm frustrated"
+    },
+    {
+      "ts": "2025-08-19T12:03:34.890565Z",
+      "phrase": "I'm frustrated"
+    },
+    {
+      "ts": "2025-08-19T12:03:36.586619Z",
+      "phrase": "I'm frustrated"
+    },
+    {
+      "ts": "2025-08-19T12:03:42.032421Z",
+      "phrase": "I'm frustrated"
+    },
+    {
+      "ts": "2025-08-19T12:03:44.034732Z",
+      "phrase": "I'm frustrated"
+    },
+    {
+      "ts": "2025-08-19T12:15:09.647368Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T12:15:10.775112Z",
+      "phrase": "Mom"
+    },
+    {
+      "ts": "2025-08-19T12:15:12.279366Z",
+      "phrase": "Mom"
+    }
+  ]
+}
