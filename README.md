@@ -49,4 +49,6 @@ Key features:
 ### 1. Clone the repository
 
 git clone https://github.com/aviv555m/echoes/aac_mvp_v2_eye_emotion
+
 cd aac_mvp_v2_eye_emotion
+
