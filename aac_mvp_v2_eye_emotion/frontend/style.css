@@ -1,0 +1,20 @@
+:root{ --bg:#0b1220; --panel:#111827; --card:#1f2937; --accent:#3b82f6; --text:#e5e7eb; }
+*{ box-sizing:border-box; }
+body{ margin:0; font-family: system-ui, Segoe UI, Roboto, Arial; background:var(--bg); color:var(--text); }
+.header{ display:flex; gap:12px; align-items:center; padding:12px 16px; background:#0f172a; position:sticky; top:0; z-index:10; }
+.badge{ background:#334155; padding:4px 8px; border-radius:999px; font-size:12px; }
+.main{ display:grid; grid-template-columns: 2fr 1fr; gap:16px; padding:16px; }
+.board{ background:var(--panel); border-radius:16px; padding:12px; position:relative; }
+.grid{ display:grid; grid-template-columns: repeat(4, 1fr); gap:10px; position:relative; }
+.card{ background:var(--card); border-radius:14px; padding:14px; text-align:center; cursor:pointer; user-select:none; border:2px solid transparent; }
+.card:hover{ border-color: var(--accent); }
+.card.highlight{ border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.panel{ background:var(--panel); border-radius:16px; padding:12px; }
+.controls{ display:flex; gap:8px; flex-wrap:wrap; }
+.button{ background:var(--accent); border:0; padding:10px 14px; color:white; border-radius:10px; cursor:pointer; }
+textarea,input{ width:100%; border-radius:10px; border:1px solid #334155; background:#0b1220; color:#e5e7eb; padding:8px; }
+.small{ font-size:12px; opacity:0.8; }
+video{ width:100%; border-radius:12px; }
+.mode-switch{ display:flex; gap:8px; margin:8px 0; }
+.mode-switch button{ background:#1f2937; border:1px solid #334155; color:#e5e7eb; border-radius:999px; padding:6px 10px; cursor:pointer; }
+.mode-switch button.active{ background:var(--accent); color:white; }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AAC MVP v2 (Eye + Emotion)</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- React (CDN) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- WebGazer for gaze estimation -->
+  <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+
+  <!-- MediaPipe Tasks Vision (FaceLandmarker with blendshapes) -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.5/vision_bundle.js"></script>
+
+  <script src="./app.js"></script>
+</body>
+</html>
